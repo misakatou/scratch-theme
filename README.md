@@ -3,4 +3,4 @@
  ### How to start
 
  - "git pull" this repository
- - "npm start" for development
+ - "npm start" 
