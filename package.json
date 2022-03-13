@@ -1,0 +1,20 @@
+{
+  "name": "scratch_theme",
+  "version": "1.0.0",
+  "description": "",
+  "main": ".eleventy.js",
+  "scripts": {
+    "watch:sass": "sass --watch assets/scss:_site/assets/css",
+    "build:sass:": "sass assets/scss:_site/assets/css",
+    "watch:eleventy": "npx @11ty/eleventy --serve",
+    "build:eleventy": "npx @11ty/eleventy",
+    "start": "npm-run-all build:sass --parallel watch:eleventy",
+    "build": "npm-run-all build:sass"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "npm-run-all": "^4.1.5",
+    "sass": "^1.49.9"
+  }
+}
